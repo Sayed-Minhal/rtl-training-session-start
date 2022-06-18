@@ -14,3 +14,12 @@ The different stages of setup and implementations of unit tests are pushed to di
     * `form-elements`
 * Add event/action elements and assocaited test file
     * `event-handling`
+
+### To run tests 
+
+* using default CRA/react-scripts
+    `npm run test`
+* using jest and custom config
+    `npm run test:ci`
+* using jest and test a single file
+    `npx jest <path/to/the/target/file>` (add parameters after adding `--` for e.g. `npx jest <path/to/the/target/file> -- -u` it will run test and update the snapshot)
