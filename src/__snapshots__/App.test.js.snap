@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the component and takes snapshot 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <div>
+      Hello, my name is 
+    </div>
+  </div>
+</div>
+`;

@@ -5,7 +5,7 @@ This is the initial state of the application before getting started.
 The different stages of setup and implementations of unit tests are pushed to different branches as named below:
 
 * Add dependencies
-    * `session-start`
+    * `session-start` or `master`
 * configure test utilities
     * `setup-complete`
 * Add simple component and associated test file
