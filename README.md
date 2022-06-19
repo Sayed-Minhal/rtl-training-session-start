@@ -10,10 +10,10 @@ The different stages of setup and implementations of unit tests are pushed to di
     * `setup-complete`
 * Add simple component and associated test file
     * `simple-component`
-* Add input/form elements and assocaited test file
+* Add input/form elements/events and assocaited test file
     * `form-elements`
-* Add event/action elements and assocaited test file
-    * `event-handling`
+* Add api calls and assocaited test file
+    * `api-calls`
 
 ### To run tests 
 
