@@ -9,6 +9,53 @@ exports[`renders the component and takes snapshot 1`] = `
       Hello, my name is 
       Sayed
     </div>
+    <form
+      data-testid="registrationForm"
+      name="registrationForm"
+    >
+      <label
+        for="firstName"
+      >
+        First Name
+      </label>
+      <input
+        id="firstName"
+        name="firstName"
+        placeholder="Enter your first name"
+        type="text"
+        value=""
+      />
+      <label
+        for="teamRoleDeveloper"
+      >
+        Developer
+        <input
+          id="teamRoleDeveloper"
+          name="teamRole"
+          placeholder="Select if you are a developer"
+          type="radio"
+          value="developer"
+        />
+      </label>
+      <br />
+      <label
+        for="teamRoleTester"
+      >
+        Tester
+        <input
+          id="teamRoleTester"
+          name="teamRole"
+          placeholder="Select if you are a tester"
+          type="radio"
+          value="tester"
+        />
+      </label>
+      <button
+        type="submit"
+      >
+        Register
+      </button>
+    </form>
   </div>
 </div>
 `;
