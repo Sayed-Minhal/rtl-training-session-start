@@ -7,6 +7,6 @@ export const getPosts = async () => {
     const result = await axios.get(`${BASE_URL}/posts`);
     return result;
   } catch (e) {
-    return {result: 'failed', error: e};
+    return e;
   }
 };
